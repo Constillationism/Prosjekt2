@@ -1,11 +1,11 @@
 from flask import Flask
 import mariadb
 
-mariadb = mariadb.connect(
-    import db.sql
-)
+mariadb = mariadb.connect
 
 def søkemotor():
-    klientsøk = input("Søk etter produkter"):
+    klientsøk = input("Søk etter produkter")
+    print("Table")
 
+søkemotor()
 
