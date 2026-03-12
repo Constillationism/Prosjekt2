@@ -1,0 +1,6 @@
+Andre periode av prosjekt, mars.
+For det andre prosjektet skal jeg lage en python nettside som skal være hostet fra min PI med apache, og jeg skal kunne ta input fra klienten om for eksempel hva de vil søke om på nettsiden, også skal databasen ha forskjellige produkter eller sider som vises opp på søket.
+
+Første dag av uken så sluttet pc-en å fungere plutselig. Jeg måtte få en ny pc som betyr at alt ble wipet. Da installerte jeg cachyos og satt opp alt some jeg backet opp med github og onedrive.
+
+I de først 3 dagene av uken så fikk jeg ett problem med ssh hvor public nøkkelen ble ikke akseptert av pien, med en error "public key, permission denied". Jeg måtte surre med dette i 3 dager sammen med noen av lærerne for å finne ut at det var en fil i /etc/ssh/sshd_config.d/50-cloud-init.conf og endre PasswordAuthentication til yes midlertig for å autentisere PI-en. Jeg brukte kommander som sudo ufw, og jeg blokkerer allere inkommende trafikk på min hovedmaskin og pi en, men på pien så har jeg en regel som tillatter spesifik meg til å koble med ssh. Jeg har fremdeles ikke begynt med å skrive kode på prosjektet eller sette opp databasen.
